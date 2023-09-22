@@ -13,4 +13,7 @@ export default {
 
 
 <style>
+img {
+  width:75%;
+}
 </style>
