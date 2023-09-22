@@ -13,7 +13,7 @@ export default {
     <div class="container">
       <nav class="navbar navbar-expand justify-content-between p-0">
         <a class="navbar-brand" href="#">
-          <AppLogo class="custom-margin"></AppLogo>
+          <AppLogo></AppLogo>
         </a>
 
         <div class="nav navbar-nav gx-3">

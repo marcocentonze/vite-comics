@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="custom-margin">
     
     <img src="../assets/img/dc-logo.png" alt="">
   </div>
