@@ -41,10 +41,6 @@ export default {
 #site_header {
   background-color: $dc_white;
 
-  .custom-margin {
-    margin-right: 400px;
-  }
-
   a.nav-item {
     text-transform: uppercase;
     font-size: 14px;

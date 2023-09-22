@@ -1,6 +1,8 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppLogo from './components/AppLogo.vue';
+import AppMain from './components/AppMain.vue';
+
 
 export default {
 
@@ -13,6 +15,7 @@ export default {
   components: {
     AppHeader,
     AppLogo,
+    AppMain,
   
 }
 
@@ -21,6 +24,7 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
+  <AppMain></AppMain>
  
 
 </template>

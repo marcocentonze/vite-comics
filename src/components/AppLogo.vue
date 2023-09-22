@@ -16,4 +16,7 @@ export default {
 img {
   width:75%;
 }
+.custom-margin {
+    margin-right: 400px;
+  }
 </style>
