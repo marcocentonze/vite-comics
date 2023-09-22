@@ -53,8 +53,8 @@ export default {
                     </li>
                     <li class="d-flex align-items-center p-3">
                         <a href="#" class="d-flex align-items-center text-decoration-none">
-                            <div>
-                                <img class="img-fluid" style="width: 30%; max-width: 70%;" src="../assets/img/buy-dc-power-visa.svg" alt="">
+                            <div class="power_visa">
+                                <img class="img-fluid" style="height: 50px;" src="../assets/img/buy-dc-power-visa.svg" alt="">
                             </div>
                             <span class="text-white">DC POWER VISA</span>
                         </a>
@@ -90,6 +90,9 @@ export default {
     #site_menu {
         background-color: $dc_main_blue;
     
+        .power_visa{
+         max-height: 62px;
+        }
     }
     
     
