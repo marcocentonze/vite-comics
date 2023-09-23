@@ -12,7 +12,7 @@ export default {
 </template>
 
 
-<style>
+<style scoped>
 img {
   width:75%;
 }
