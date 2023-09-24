@@ -23,8 +23,8 @@ export default {
                 <a class="text-decoration-none" href="#">Games</a>
                 <a class="text-decoration-none" href="#">Videos</a>
                 <a class="text-decoration-none" href="#">News</a>
-                
-                
+
+
                 <h5 class="pt-5">SHOP</h5>
                 <a class="text-decoration-none pt-1" href="#">Shop DC</a>
                 <a class="text-decoration-none" href="#">Shop DC Collectibles</a>
@@ -72,7 +72,36 @@ export default {
         </section>
 
 
-        <!-- Down part -->
+        <!-- bottom part -->
+
+        <section>
+
+            <div class="container d-flex footer-bottom p-4 position-relative">
+            
+                 <!-- left side -->
+                <div class="col-6 justify-content-start">
+                     <button>SIGN-UP NOW!</button>
+
+                    </div>
+                    <!-- right side -->
+                <div class="col-6 justify-content-end">
+
+                    <a href="#">FOLLOW US</a>
+                    <a href="#"><img src="../assets/img/footer-facebook.png"></a>
+                    <a href="#"><img src="../assets/img/footer-twitter.png"></a>
+                    <a href="#"><img src="../assets/img/footer-youtube.png"></a>
+                    <a href="#"><img src="../assets/img/footer-pinterest.png"></a>
+                    <a href="#"><img src="../assets/img/footer-periscope.png"></a>
+                    
+                </div>
+
+             </div>
+
+           
+
+        </section>
+
+
     </footer>
 </template>
 
@@ -82,7 +111,7 @@ export default {
 @use '../../src/assets/scss/partials/variables' as *;
 
 #site_footer {
-
+    
     .custom-bg-img {
         background-image: url('../assets/img/footer-bg.jpg');
         background-repeat: no-repeat;
@@ -103,7 +132,12 @@ export default {
     .custom-width-logo-footer {
         width: 52%;
         margin: -50px 0;
-        margin-left:200px;
+        margin-left: 200px;
     }
+
+    .footer-bottom{
+        background-color: $dc_dark_light;
+    }
+   
 }
 </style>
