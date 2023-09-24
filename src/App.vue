@@ -33,5 +33,5 @@ export default {
 </template>
 
 <style >
-/* @use './assets/scss/app.scss'; */
+
 </style>

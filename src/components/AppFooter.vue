@@ -14,7 +14,7 @@ export default {
         <section class="container d-flex custom-bg-img">
 
             <!-- 1 div -->
-            <div class="d-flex custom-width flex-column justify-content-start pt-4 me-3">
+            <div class="d-flex custom-width flex-column justify-content-start pt-4 align-items-start text-nowrap custom-margin">
                 <h5>DC COMICS</h5>
                 <a class="text-decoration-none" href="#">Characters</a>
                 <a class="text-decoration-none" href="#">Comics</a>
@@ -25,14 +25,14 @@ export default {
                 <a class="text-decoration-none" href="#">News</a>
 
 
-                <h5 class="pt-5">SHOP</h5>
+                <h5 class="pt-4">SHOP</h5>
                 <a class="text-decoration-none pt-1" href="#">Shop DC</a>
                 <a class="text-decoration-none" href="#">Shop DC Collectibles</a>
 
             </div>
 
             <!-- 2 div -->
-            <div class="d-flex custom-width flex-column justify-content-start pt-4 me-3">
+            <div class="d-flex custom-width flex-column justify-content-start pt-4 align-items-start text-nowrap me-5">
                 <h5>DC</h5>
                 <a class="text-decoration-none" href="#">Terms of Use</a>
                 <a class="text-decoration-none" href="#">Privacy Policy</a>
@@ -49,7 +49,7 @@ export default {
             </div>
 
             <!-- 3 div  -->
-            <div class="d-flex custom-width flex-column justify-content-start pt-4 ">
+            <div class="d-flex custom-width flex-column justify-content-start pt-4 align-items-start text-nowrap">
                 <h5>SITES</h5>
                 <a class="text-decoration-none" href="#">DC</a>
                 <a class="text-decoration-none" href="#">MAD Magazine</a>
@@ -76,28 +76,28 @@ export default {
 
         <section>
 
-            <div class="container d-flex footer-bottom p-4 position-relative">
-            
-                 <!-- left side -->
-                <div class="col-6 justify-content-start">
-                     <button>SIGN-UP NOW!</button>
+            <div class="container d-flex footer-bottom p-4 position-relative align-items-center">
 
-                    </div>
-                    <!-- right side -->
-                <div class="col-6 justify-content-end">
+                <!-- left side -->
+                <div class="col-6 d-flex justify-content-start">
+                    <button class="btn-signup">SIGN-UP NOW!</button>
 
-                    <a href="#">FOLLOW US</a>
-                    <a href="#"><img src="../assets/img/footer-facebook.png"></a>
-                    <a href="#"><img src="../assets/img/footer-twitter.png"></a>
-                    <a href="#"><img src="../assets/img/footer-youtube.png"></a>
-                    <a href="#"><img src="../assets/img/footer-pinterest.png"></a>
-                    <a href="#"><img src="../assets/img/footer-periscope.png"></a>
-                    
+                </div>
+                <!-- right side -->
+                <div class="col-6 d-flex justify-content-end">
+
+                    <a href="#" class="px-3 text-decoration-none color-followme">FOLLOW US</a>
+                    <a href="#" class="px-2 social-color"><img src="../assets/img/footer-facebook.png"></a>
+                    <a href="#" class="px-2 social-color"><img src="../assets/img/footer-twitter.png"></a>
+                    <a href="#" class="px-2 social-color"><img src="../assets/img/footer-youtube.png"></a>
+                    <a href="#" class="px-2 social-color"><img src="../assets/img/footer-pinterest.png"></a>
+                    <a href="#" class="px-2 social-color"><img src="../assets/img/footer-periscope.png"></a>
+
                 </div>
 
-             </div>
+            </div>
 
-           
+
 
         </section>
 
@@ -111,7 +111,7 @@ export default {
 @use '../../src/assets/scss/partials/variables' as *;
 
 #site_footer {
-    
+
     .custom-bg-img {
         background-image: url('../assets/img/footer-bg.jpg');
         background-repeat: no-repeat;
@@ -132,12 +132,32 @@ export default {
     .custom-width-logo-footer {
         width: 52%;
         margin: -50px 0;
-        margin-left: 200px;
+        margin-left: 160px;
+    }
+    .custom-margin{
+        margin-right:60px;
     }
 
-    .footer-bottom{
+    .footer-bottom {
         background-color: $dc_dark_light;
     }
-   
+
+    .social-color {
+        color: $dc_dark_light;
+    }
+
+    .btn-signup {
+        background-color: $dc_bg_btn_footer;
+        border: 2px solid $dc_footer_blue;
+        padding:10px 20px;
+        margin-left:25px;
+    }
+
+    .color-followme {
+        color: #0382F3;
+        font-size: larger;
+
+    }
+
 }
 </style>

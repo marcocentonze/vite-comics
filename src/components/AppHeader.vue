@@ -40,6 +40,7 @@ export default {
 
 #site_header {
   background-color: $dc_white;
+  
 
   a.nav-item {
     text-transform: uppercase;

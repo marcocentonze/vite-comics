@@ -19,25 +19,25 @@ export default {
         <section id="site_menu">
             <div class="container">
                 <ul class="list-unstyled d-flex justify-content-around align-items-center py-5">
-                    <li class="d-flex align-items-center p-3">
+                    <li class="d-flex align-items-center">
                         <a href="#" class="d-flex align-items-center text-decoration-none">
                             <div>
                                 <img class="img-fluid" style="width: 40%;" src="../assets/img/buy-comics-digital-comics.png"
                                     alt="">
                             </div>
-                            <span class="text-white">DIGITAL COMICS</span>
+                            <span class="text-white text-nowrap">DIGITAL COMICS</span>
                         </a>
                     </li>
-                    <li class="d-flex align-items-center p-3">
+                    <li class="d-flex align-items-center">
                         <a href="#" class="d-flex align-items-center text-decoration-none">
                             <div>
                                 <img class="img-fluid" style="width: 40%;" src="../assets/img/buy-comics-merchandise.png"
                                     alt="">
                             </div>
-                            <span class="text-white">DC MERCHANDISE</span>
+                            <span class="text-white text-nowrap">DC MERCHANDISE</span>
                         </a>
                     </li>
-                    <li class="d-flex align-items-center p-3">
+                    <li class="d-flex align-items-center">
                         <a href="#" class="d-flex align-items-center text-decoration-none">
                             <div>
                                 <img class="img-fluid" style="width: 40%;" src="../assets/img/buy-comics-subscriptions.png"
@@ -46,22 +46,22 @@ export default {
                             <span class="text-white">SUBSCRIPTION</span>
                         </a>
                     </li>
-                    <li class="d-flex align-items-center p-3">
+                    <li class="d-flex align-items-center">
                         <a href="#" class="d-flex align-items-center text-decoration-none">
                             <div>
                                 <img class="img-fluid" style="width: 40%;" src="../assets/img/buy-comics-shop-locator.png"
                                     alt="">
                             </div>
-                            <span class="text-white">COMIC SHOP LOCATOR</span>
+                            <span class="text-white text-nowrap">COMIC SHOP LOCATOR</span>
                         </a>
                     </li>
-                    <li class="d-flex align-items-center p-3">
+                    <li class="d-flex align-items-center ps-4">
                         <a href="#" class="d-flex align-items-center text-decoration-none">
                             <div class="power_visa">
-                                <img class="img-fluid" style="height: 50px;" src="../assets/img/buy-dc-power-visa.svg"
+                                <img class="img-fluid w-75" style="height: 50px;" src="../assets/img/buy-dc-power-visa.svg"
                                     alt="">
                             </div>
-                            <span class="text-white">DC POWER VISA</span>
+                            <span class="text-white text-nowrap ps-2">DC POWER VISA</span>
                         </a>
                     </li>
 
