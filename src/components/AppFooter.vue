@@ -9,12 +9,13 @@ export default {
 </script>
 
 <template>
-    <footer id="site_footer"  style="width: 100%;">
+    <footer id="site_footer">
         <!-- Top Part -->
-        <section class="container d-flex custom-bg-img">
+        <section class="container d-flex">
 
             <!-- 1 div -->
-            <div class="d-flex custom-width flex-column justify-content-start pt-4 align-items-start text-nowrap custom-margin">
+            <div
+                class="d-flex custom-width flex-column justify-content-start pt-4 align-items-start text-nowrap custom-margin">
                 <h5>DC COMICS</h5>
                 <a class="text-decoration-none" href="#">Characters</a>
                 <a class="text-decoration-none" href="#">Comics</a>
@@ -74,7 +75,7 @@ export default {
 
         <!-- bottom part -->
 
-        <section>
+        <section style="background-color:#464646;">
 
             <div class="container d-flex footer-bottom p-4 position-relative align-items-center">
 
@@ -110,12 +111,12 @@ export default {
 <style lang="scss" scoped>
 @use '../../src/assets/scss/partials/variables' as *;
 
+
 #site_footer {
 
-    .custom-bg-img {
-        background-image: url('../assets/img/footer-bg.jpg');
-        background-repeat: no-repeat;
-    }
+    background-image: url('../assets/img/footer-bg.jpg');
+    width: 100%;
+    overflow: hidden;
 
     .custom-width {
         width: 10%;
@@ -134,8 +135,9 @@ export default {
         margin: -50px 0;
         margin-left: 160px;
     }
-    .custom-margin{
-        margin-right:60px;
+
+    .custom-margin {
+        margin-right: 60px;
     }
 
     .footer-bottom {
@@ -149,8 +151,8 @@ export default {
     .btn-signup {
         background-color: $dc_bg_btn_footer;
         border: 2px solid $dc_footer_blue;
-        padding:10px 20px;
-        margin-left:25px;
+        padding: 10px 20px;
+        margin-left: 25px;
     }
 
     .color-followme {
