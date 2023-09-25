@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <footer id="site_footer">
+    <footer id="site_footer"  style="width: 100%;">
         <!-- Top Part -->
         <section class="container d-flex custom-bg-img">
 

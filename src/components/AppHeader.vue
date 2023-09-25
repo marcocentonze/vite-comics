@@ -41,6 +41,8 @@ export default {
 @use '../../src/assets/scss/partials/variables' as *;
 .wrapper{
   width:100%;
+  height:100%;
+  
 }
 
 #site_header {
