@@ -9,6 +9,7 @@ export default {
 </script>
 
 <template>
+  <div class="wrapper">
   <header id="site_header">
     <div class="container">
       <nav class="navbar navbar-expand justify-content-between p-0">
@@ -31,12 +32,16 @@ export default {
       </nav>
     </div>
   </header>
+</div>
 </template>
 
 
 
 <style lang="scss" scoped>
 @use '../../src/assets/scss/partials/variables' as *;
+.wrapper{
+  width:100%;
+}
 
 #site_header {
   background-color: $dc_white;
@@ -53,6 +58,7 @@ export default {
       border-bottom: 4px solid $dc_main_blue;
     }
   }
+
 
 }
 </style>
