@@ -1,9 +1,13 @@
 <script>
 import comics from '../comics.js';
+import AppComicsSon from './AppComicsSon.vue';
 
 export default {
 
     name: 'AppComics',
+    
+    components: { AppComicsSon },
+
 
     data() {
         return {
@@ -16,7 +20,7 @@ export default {
 <template>
     <div v-for="comic in comics">
 
-        <div>{{ comic.series }}</div>
+        <AppComicsSon :lnThumb="comic.thumb" :lnPrice="comic.price" :lnSeries="comic.series" :lnType="comic.type" />
 
     </div>
 </template>

@@ -1,5 +1,4 @@
 <script>
-import AppLogo from './AppFooter.vue';
 export default {
     name: 'AppFooter',
     components: {

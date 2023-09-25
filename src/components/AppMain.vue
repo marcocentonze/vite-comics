@@ -1,18 +1,35 @@
 <script>
+import AppComics from './AppComics.vue';
+
 export default {
-    name: 'AppMain'
+
+    name: 'AppMain',
+
+    components: {
+        AppComics
+    },
+
+    data() {
+        return {
+            // serviceArray: [
+            //     { title: 'DIGITALS COMICS', image: '../../src/assets/img/buy-comics-digital-comics.png' },
+            //     { title: 'DC MERCHANDISE', image: '../../src/assets/img/buy-comics-merchandise.png' },
+            //     { title: 'SUBCRIPTION', image: '../../src/assets/img/buy-comics-subscriptions.png' },
+            //     { title: 'COMIC SHOP LOCATOR', image: '../../src/assets/img/buy-comics-shop-locator.png' },
+            //     { title: 'DC POWER VISA', image: '../../src/assets/img/buy-dc-power-visa.svg' }
+            // ]
+        }
+    }
 }
 </script>
 
+<!-- TO DO :RENDERE DINAMICI LE IMMAGINI DEI SERVIZI -->
 <template>
     <main id="site_main">
 
         <!-- CONTENT GOES HERE IN PROGRESS -->
         <section id="content_here">
-            <div class="container">
-                <h2 class="py-5">----- Content goes here------</h2>
-            </div>
-            <!-- /.container -->
+           <AppComics></AppComics>
         </section>
         <!-- /#content -->
 
@@ -102,4 +119,5 @@ export default {
 
 
 
-}</style>
+}
+</style>
